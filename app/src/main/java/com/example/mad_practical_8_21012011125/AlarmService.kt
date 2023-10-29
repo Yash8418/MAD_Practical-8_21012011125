@@ -12,7 +12,6 @@ class AlarmService : Service() {
         TODO("new")
     }
 
-
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         if(intent!=null){
             player=MediaPlayer.create(this,R.raw.alarm)

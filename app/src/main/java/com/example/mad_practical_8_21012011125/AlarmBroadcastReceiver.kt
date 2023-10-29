@@ -10,7 +10,6 @@ class AlarmBroadcastReceiver : BroadcastReceiver() {
         val ALARM_STOP="asp"
         val ALARM_START="ast"
     }
-
     override fun onReceive(context: Context, intent: Intent) {
         // This method is called when the BroadcastReceiver is receiving an Intent broadcast.
         if (intent!= null){
