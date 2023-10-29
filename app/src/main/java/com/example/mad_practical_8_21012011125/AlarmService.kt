@@ -9,13 +9,9 @@ class AlarmService : Service() {
     lateinit var player:MediaPlayer
     override fun onBind(intent: Intent): IBinder {
 
-        TODO("Return the communication channel to the service.")
+        TODO("new")
     }
 
-    override fun onDestroy() {
-        player.stop()
-        super.onDestroy()
-    }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         if(intent!=null){
@@ -23,6 +19,10 @@ class AlarmService : Service() {
             player.start()
         }
         return START_STICKY
+    }
+    override fun onDestroy() {
+        player.stop()
+        super.onDestroy()
     }
 
 }
