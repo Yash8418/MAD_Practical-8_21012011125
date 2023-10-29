@@ -18,12 +18,14 @@
         <receiver
             android:name=".AlarmBroadcastReceiver"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true" >
+        </receiver>
 
         <service
             android:name=".AlarmService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true"/>
+
 
         <activity
             android:name=".MainActivity"

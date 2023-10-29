@@ -54,7 +54,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="310dp" />
+            android:layout_marginTop="310dp"
+            android:format12Hour="hh:mm:ss a MMM dd yyyy"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_Alarm"
@@ -64,7 +65,6 @@
             android:layout_marginTop="340dp"
             android:text="Create Alarm">
         </com.google.android.material.button.MaterialButton>
-
 
     </com.google.android.material.card.MaterialCardView>
 
@@ -99,14 +99,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="230dp" />
+            android:layout_marginTop="230dp"
+            android:format12Hour="hh:mm:ss a MMM dd yyyy"/>
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_marginTop="250dp"
-            android:text="Cancel Alarm"></com.google.android.material.button.MaterialButton>
+            android:text="Cancel Alarm">
+        </com.google.android.material.button.MaterialButton>
 
     </com.google.android.material.card.MaterialCardView>
 

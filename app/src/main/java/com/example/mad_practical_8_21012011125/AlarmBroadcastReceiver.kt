@@ -3,7 +3,6 @@ package com.example.mad_practical_8_21012011125
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-
 class AlarmBroadcastReceiver : BroadcastReceiver() {
     companion object{
         val ALARMKEY="ak"
